@@ -41,3 +41,12 @@ console.log('yo soy ' + batman);
 console.log(
   `Yo soy ${linternaVerde} y mi super poder es ${poder} y tengo ${edad} años`
 );
+
+//any
+const nombre = 'Pedro';
+console.log(nombre.charAt(1));
+
+//Arreglos
+const numbers: number[] = [1, 2, 3, 4, 5, 6];
+numbers.push(7);
+console.log(numbers);
