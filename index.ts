@@ -17,3 +17,27 @@ let n = 10;
 isSuperman = 1 + 1 == 2 ? true : false;
 
 console.log(isSuperman);
+
+//Numbers
+const countAvengers = '123A';
+const villanos = 2;
+let avengers = Number(countAvengers);
+
+if (!isNaN(avengers)) {
+  if (avengers > villanos) {
+    console.log('Estamos en problemas');
+  }
+} else {
+  console.log('Estamos a salvo');
+}
+
+//string
+const batman = 'Batman';
+const linternaVerde = 'Linterna verde';
+const volcanNegro = `Heroe`;
+const poder: string = 'Velocidad';
+const edad: number = 35;
+console.log('yo soy ' + batman);
+console.log(
+  `Yo soy ${linternaVerde} y mi super poder es ${poder} y tengo ${edad} años`
+);
