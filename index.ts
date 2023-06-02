@@ -12,6 +12,7 @@ let b = 10;
 // Booleans
 let isSuperman = true;
 let isBatman = false;
+let n = 10;
 
 isSuperman = 1 + 1 == 2 ? true : false;
 
